@@ -938,3 +938,56 @@ footer {
   box-shadow: 0 35px 45px -35px rgba(180, 195, 205, 0.45);
 }
 
+/* ===== AEO / FAQ SECTION ===== */
+
+.aeo-section {
+  padding: 110px 0;
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+}
+
+.aeo-content {
+  max-width: 900px;
+  margin: auto;
+  border-top: 1px solid var(--line);
+}
+
+.aeo-item {
+  padding: 30px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.aeo-item h3 {
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.8;
+  margin-bottom: 14px;
+}
+
+.aeo-item p {
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 2.1;
+  color: #666;
+  max-width: 800px;
+}
+
+@media (max-width: 560px) {
+  .aeo-section {
+    padding: 75px 0;
+  }
+
+  .aeo-item {
+    padding: 23px 0;
+  }
+
+  .aeo-item h3 {
+    font-size: 16px;
+  }
+
+  .aeo-item p {
+    font-size: 13px;
+  }
+}
